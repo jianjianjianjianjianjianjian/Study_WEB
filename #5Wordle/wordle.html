@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="wordle.css">
+        <title>KKUTRIO</title>
+    </head>
+
+    <body>
+        <h2>WORDLE</h2>
+
+        <h3>게임 설명<br>
+            1. 총 5라운드로 진행되는 단어 게임!<br>
+            2. 5자리 글자를 맞추는 게임<br>
+            3. 색상 규칙<br>
+            - 완전히 틀린 문자 > 회색<br>
+            - 글자는 맞지만 위치는 틀린 문자 > 노란색<br>
+            - 글자도, 위치도 맞힌 문자 > 녹색<br>
+        </h3>
+        <div id="inputs">
+            <input class = 'input'>
+            <input class = 'input'>
+            <input class = 'input'>
+            <input class = 'input'>
+            <input class = 'input'>
+            <button onclick="submitAnswer()">제출</button>
+        </div>
+        <script src="wordle.js"></script>
+    </body>
+</html>
