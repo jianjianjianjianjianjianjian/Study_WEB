@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>RoadMap Summary</title>
+    </head>
+
+    <body>
+        <h2>RoadMap Summary</h2>
+
+        [등록 방법]<br>
+        개념 + 뜻 + url<br>
+        <!--입력-->
+        <input id="notion" type="text" placeholder="notion"><br>
+        <input id="meaning" type="text" placeholder="meaning"><br>
+        <input id="url" type="text" placeholder="url"><br>
+        <!--add 함수 실행 버튼-->
+        <button onclick="add()">입력</button><br><br>
+
+        <!--결과 보기ㄱ-->
+        <br><button onclick="showAll()">보기</button><br><br>
+
+        [검색 방법]<br>
+        개념 or 번호<br>
+        <!--검색-->
+        <input id="search" type="text" placeholder="search"><br>
+        <button onclick="search()">검색</button><br>
+
+        <div id="result"></div>
+        <!--
+            <details>
+            <summary>1. Game</summary>
+            : Unity, Unreal, 회사 자체 엔진
+            </details>
+        -->
+        <script src = "script_2_2.js"></script>
+    </body>
+
+</html>
